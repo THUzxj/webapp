@@ -23,7 +23,7 @@ module.exports = (env, argv) => {
     output: {
       path: path.resolve(__dirname, 'umd'),
       filename: `[name].${mode}.js`,
-      publicPath: '/umd/'
+      publicPath: 'umd/'
     },
     optimization: {
       minimize: (mode === 'prod'),
